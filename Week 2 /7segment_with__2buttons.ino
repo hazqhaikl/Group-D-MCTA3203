@@ -1,5 +1,5 @@
 // Code for 7 segment display with 2 push buttons
-// The buttons work as counters, one for increase and the other one for decrease the numbers
+// The buttons are to increase or decrease the number of the counter by one
 
 #define BUTTON_PIN1 3
 #define BUTTON_PIN2 4

@@ -31,9 +31,8 @@ void setup() {
   zero();
 }
 void loop() {
-  Serial.println(digitalRead(BUTTON_PIN1));
-  //delay(10);
   if (digitalRead(BUTTON_PIN1) == HIGH) {
+    Serial.println("Increased");
     if (counter == 9) {
     counter = 9;
     } else {
@@ -53,6 +52,7 @@ void loop() {
       delay(300);
     }
   } else if (digitalRead(BUTTON_PIN2) == HIGH) {
+    Serial.println("Decreased");
     if (counter == 0) {
     counter = 0;
     } else {

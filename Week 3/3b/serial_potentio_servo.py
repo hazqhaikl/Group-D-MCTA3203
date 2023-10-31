@@ -32,6 +32,8 @@ try:
     print("Thank You!")
 
 except KeyboardInterrupt:
-    ser.close()
-    print("Serial connection closed.")
+    pass
+    
+ser.close()
+print("Serial connection closed.")
 
